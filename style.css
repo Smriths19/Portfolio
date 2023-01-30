@@ -1,0 +1,399 @@
+body {
+	
+	font-family: 'Noto Sans Mono', monospace;
+	margin: 0;
+	box-sizing: border-box;
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+
+}
+
+
+/*ABOUT ME PAGE DESIGN*/
+
+#aboutmeimg {
+	
+	height: 50vh;
+	width: 25vh;
+	border-radius: 30px;
+	border: 2px solid #050A30;
+	margin-top: 4rem;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  
+  }
+
+
+/*Positioning the home icon in the same location on all webpages */
+
+.homeicon {
+	
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #0B0B45;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	color: #fff;
+	font-size: 28px;
+	
+	}
+
+
+
+/*Tried out letter spacing here */
+
+.myNameh1 {
+
+	font-family: 'Roboto', sans-serif;
+	color: #050A30;
+	font-size: 3rem;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-decoration: none;
+	
+	}
+
+
+.myNameh2 {
+	
+	font-family: 'Roboto', sans-serif;
+	color: #050A30;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+
+	}
+
+.aboutMePara {
+	
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 1rem;
+	color: #050A30;
+	line-height: 1rem;
+	margin: 50px 200px;
+	
+	}
+
+
+.contactButton {
+	
+ 		width: 25vh;
+		height: 5vh;  
+   	border: 1px solid white;
+  	display: block;
+  	margin: 0 auto;
+  	text-align: center;
+    padding: 1.5rem 1.5rem;
+  	background: #050A30;
+		font-size: 1rem;
+		text-decoration: none;
+		color: white;
+		border-radius: 10px;
+		transition: background 0.4s;
+
+	}
+
+
+.contactButton:hover {
+
+	background: #dadada;
+	color: #050A30;
+
+	}
+
+
+/*CONTACT ME PAGE DESIGN*/
+
+
+.container-contact {
+
+	display: block;
+	justify-content: center;
+	text-align: center;
+
+}
+.contact-title {
+
+	margin-top: 5rem;
+	color: #0B0B45;
+	text-transform: uppercase;
+
+	}
+
+.contact-title h1 {
+
+	font-size: 3rem;
+	line-height: 1rem;
+	}
+
+.contact-title h2 {
+
+	font-size: 1rem;
+	line-height: 1rem;
+	margin-top: 30px;
+	}
+
+
+form {
+
+	margin: 50px 20px; 
+	
+	}
+
+
+.formcontrol {
+
+	width: 600px;
+	height: 50px;
+	margin: 10px 10px;
+	border: 1px solid black;
+	background: transparent;
+	outline: none;
+	font-size: 1rem;
+	color: #0B0B45;
+	}
+
+input {
+
+	height: 45px;
+	}
+
+form .submit {
+
+	background-color: #0B0B45;
+	color: #fff;
+	}
+
+
+
+/*PREVIOUS WORK DESIGN */
+
+
+.container1 {
+
+	width:100%; 
+    margin:1%;
+
+	}
+
+
+.previousWorkh1 {
+
+	color: #050A30;
+	font-size: 3rem;
+	margin: 30px 0;
+	text-align: center;
+	
+	}
+
+
+table, th, td {
+
+  border: 1px solid black;
+  text-align: center;
+
+	}
+
+
+.content-table {
+
+	background-color: white;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 400px;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+
+	}
+
+/*Add color to the theads */
+
+.content-table thead tr {
+
+	background-color: #050A30;
+	color: whitesmoke;
+	text-align: left;
+	font-weight: bold;
+	
+	}
+
+/*Space the columns and rows a bit */
+
+.content-table th, .content-table td {
+
+	padding: 15px 15px;
+	}
+
+.content-table tbody tr {
+
+	border-bottom: 1px solid #050A30;
+	}
+
+
+
+/*SKILLS DESIGN*/
+
+.currentSkillsh1 {
+
+	text-align: center;
+	text-decoration: none;
+	color: #050A30;
+	font-size: 3rem;
+	margin: 30px 0;
+
+	}
+
+.currentSkillsh2 {
+
+	color: #050A30;
+	font-size: 1.1rem;
+	margin: 80px 200px;
+	text-align: center;
+
+	}
+
+.homeicon {
+
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #0B0B45;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	color: #fff;
+	font-size: 28px;
+	
+	}
+
+.skillscontainer {
+	
+	position: absolute;
+    top: 30%;
+    right: 20%;
+	width: 100%;
+	max-width: 800px;
+	background: rgba(255,255,255, .6);
+	margin: 10px 15px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+
+.skillset{
+
+	margin: 20px 10px;
+
+	}
+
+/* Learnt that in nested divs with different classes, there is a different way we can call them in CSS*/
+
+/*Setting dimensions for the text - aka, HTML, CSS, etc.*/
+
+
+.skillset .title {
+
+	display: block;
+	font-size: 15px;
+	font-weight: 800;
+	color: #333;
+	
+	}
+
+/*Setting the dimensions for the bar */
+
+.skillset .skillbar {
+
+	height: 10px;
+	width: 100%;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.1);
+
+	}
+
+/*Filling in the color of the skill bar until the % specified*/
+
+.skillbar .skillper {
+
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 90%;
+	border-radius: 5px;
+	background: #4070f4;
+
+	}
+
+/*Filling in the colors of the skill bars for the rest of the categories*/
+
+.skillper.css {
+	width: 70%;
+	}
+
+.skillper.java {
+	width: 60%;
+	}
+
+.skillper.cplus {
+	width: 50%;
+	}
+
+.skillper.seo {
+	width: 80%;
+	}
+
+.skillper.market {
+	width: 70%;
+	}
+
+.skillper.wire {
+	width: 70%;
+	}
+
+.skillper.visual {
+	width: 80%;
+	}
+
+.skillper.ux {
+	width: 90%;
+	}
+
+.skillper .percent {
+	position: absolute;
+	right: -14px;
+	background: #4070f4;
+	}
+
+
+/*RESEARCH PAGE DESIGN*/
+
+
+.researchText {
+	
+	font-family: 'Roboto', sans-serif;
+	color: #050A30;
+	font-size: 3rem;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-decoration: none;
+
+	}
