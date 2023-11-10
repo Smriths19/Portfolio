@@ -13,7 +13,7 @@ body {
 	font-family: 'Noto Sans Mono', monospace;
 	margin: 0;
 	box-sizing: border-box;
-	background-image: url(../img/backgroundMe.jpg);
+	background-image: url(backgroundMe.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
