@@ -3,7 +3,7 @@ body {
 	font-family: 'Noto Sans Mono', monospace;
 	margin: 0;
 	box-sizing: border-box;
-	background-image: url(../img/background.png);
+	background-image: url(background.png);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
